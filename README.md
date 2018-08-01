@@ -33,7 +33,7 @@ or
 
 * iOS 9 and later
 * Xcode 9 and later
-* Swift 4
+* Swift 4.1
 
 ## Usage
 
