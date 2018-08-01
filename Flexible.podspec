@@ -29,7 +29,7 @@ Provides developer with set of tools that simplify work with arrays in Swift.
                    DESC
 
   s.homepage     = "https://github.com/igormatyushkin014/Flexible"
-  s.screenshots  = "https://github.com/igormatyushkin014/Flexible/raw/master/Images/logo_2048_2048.png"
+  s.screenshots  = "https://github.com/igormatyushkin014/Flexible/raw/master/Images/logo_2048_600.png"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
