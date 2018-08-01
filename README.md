@@ -37,6 +37,8 @@ or
 
 ## Usage
 
+Code examples will be published soon.
+
 ## License
 
 `Flexible` is available under the Apache 2.0 license. See the [LICENSE](./LICENSE) file for more info.
