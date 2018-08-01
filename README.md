@@ -13,7 +13,7 @@
 		<img src="https://img.shields.io/cocoapods/dt/Flexible.svg">
 	</a>
 	<a href="https://tldrlegal.com/license/mit-license">
-		<img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat">
+		<img src="https://img.shields.io/badge/License-Apache 2.0-blue.svg?style=flat">
 	</a>
 </p>
 
