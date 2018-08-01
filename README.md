@@ -37,7 +37,20 @@ or
 
 ## Usage
 
-Code examples will be published soon.
+Filtering array is much easier with `Flexible`:
+
+```swift
+let sourceArray = [
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+]
+
+let result = array.flx
+    .take(.last(count: 4))         // Take last 4 elements
+    .mapped { "value = \($0)" }    // Map Int element to String value
+    .where { $0 < 8 }              // Filter source elements
+
+print(result) // ["value = 4", "value = 5", "value = 6", "value = 7"]
+```
 
 ## License
 
