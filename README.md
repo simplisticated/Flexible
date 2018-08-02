@@ -63,6 +63,18 @@ let result = sourceArray.flx
 print(result) // [1, 2, 3, 4]
 ```
 
+
+Retrieve array with elements multiplied by 2:
+
+```swift
+let result = sourceArray.flx
+    .take(.all)
+    .mapped { $0 * 2 }
+    .noFilter()
+
+print(result) // [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+```
+
 ## License
 
 `Flexible` is available under the Apache 2.0 license. See the [LICENSE](./LICENSE) file for more info.
