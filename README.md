@@ -44,12 +44,23 @@ let sourceArray = [
     1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 ]
 
-let result = array.flx
+let result = sourceArray.flx
     .take(.last(count: 4))         // Take last 4 elements
     .mapped { "value = \($0)" }    // Map Int element to String value
     .where { $0 < 8 }              // Filter source elements
 
 print(result) // ["value = 4", "value = 5", "value = 6", "value = 7"]
+```
+
+Take first 4 elements from array:
+
+```swift
+let result = sourceArray.flx
+    .take(.first(count: 4))
+    .noMapping()
+    .noFilter()
+
+print(result) // [1, 2, 3, 4]
 ```
 
 ## License
