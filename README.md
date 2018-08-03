@@ -12,7 +12,7 @@
 	<a href="https://cocoapods.org">
 		<img src="https://img.shields.io/cocoapods/dt/Flexible.svg">
 	</a>
-	<a href="https://tldrlegal.com/license/mit-license">
+	<a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">
 		<img src="https://img.shields.io/badge/License-Apache 2.0-blue.svg?style=flat">
 	</a>
 </p>
